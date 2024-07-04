@@ -40,3 +40,12 @@ This optimization problem with variable vector $x_{ij}$ and parameters $c_{ij}$,
 1. Using current real-world trade route distances and trade volumes, infer the values of $p_{ij}$ and $\alpha$ that would result in the current trade volumes $x_{ij}$ being optimal by the objective function $Z$. 
   
 2. Once solved for $p_{ij}$ and $\alpha$, modify transport costs $c_{ij}$ to reflect the construction of the Thai canal and solve again for $x_{ij}$
+
+   
+## Files
+### Model and Sensitivity
+
+[Zalewski_Xarxes_Model_and _Sensitivity.ipynb](./Zalewski_Xarxes_Model_and _Sensitivity.ipynb)
+
+
+
