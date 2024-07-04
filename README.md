@@ -45,7 +45,15 @@ This optimization problem with variable vector $x_{ij}$ and parameters $c_{ij}$,
 ## Files
 ### Model and Sensitivity
 
-[Zalewski_Xarxes_Model_and _Sensitivity.ipynb](./Zalewski_Xarxes_Model_and _Sensitivity.ipynb)
+The file [Zalewski_Xarxes_Model_and _Sensitivity.ipynb](Zalewski_Xarxes_Model_and_Sensitivity.ipynb) contains the bulk of the data importing, model validation, figures, and conclusions used to conduct the analysis.
+
+### Optimize Alpha
+
+[Zalewski_Xarxes_OptimizeAlpha.ipynb](Zalewski_Xarxes_OptimizeAlpha.ipynb) contains a shorter script that uses optimization techniques to find a value of $\alpha$ that most accurately emualates real world data to use in the main script.
+
+## Full Paper
+
+For a better understanding and explanation of the model, the full paper pdf is available [here](Zalewski_Xarxes_OptimizeAlpha.ipynb).
 
 
 
