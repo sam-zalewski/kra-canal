@@ -1,3 +1,8 @@
+## The Kra Canal Optimization Problem
+
+Located on the Malay Peninsula, the Kra Isthmus is a thin strech of land seperating the Indian Ocean and the Gulf of Thailand. Due to the large flow of trade between these two regions, there has been a historic interest in creating a canal through the isthmus to better faciliate maritime trade. Interest in this hypothetical canal has resurfeced in recent years, and this paper sets out to explore some ways this canal could impact both regional and global economies. Focusing specifically on the petroleum market due to its data availability, the following scripts and papers describe an econometric model used to predict optimal trade route assignments between countries.
+
+
 ## Methodology
 
 Given a set of exporting countries $I$ and a set of importing countries $J$, the total global cost $Z$ of importing crude oil can be approximated by the minimization problem:
@@ -32,6 +37,6 @@ $$
 
 This optimization problem with variable vector $x_{ij}$ and parameters $c_{ij}$, $t_{ij}$, $p_{ij}$, and $\alpha$ computes in its double integral the total cost of all trade routes between all countries. As one can see, solving for the optimal trade routes in a hypothetical scenario requires the knowledge of quite a few parameters. Values of $c_{ij}$ can be estimated in a way that I will discuss in more detail in the next section, but the parameters of $t_{ij}$ $\alpha$ are less intuitive. As a result, the approach for applying this model to a set of trade routes modified by the construction of a canal can be summarized  by two steps:
 
-1. Using current trade route distances, infer the values of $p_{ij}$ and $\alpha$ that would result in the current trade volumes $x_{ij}$ being optimal by the objective function $Z$. 
+1. Using current real-world trade route distances and trade volumes, infer the values of $p_{ij}$ and $\alpha$ that would result in the current trade volumes $x_{ij}$ being optimal by the objective function $Z$. 
   
 2. Once solved for $p_{ij}$ and $\alpha$, modify transport costs $c_{ij}$ to reflect the construction of the Thai canal and solve again for $x_{ij}$
