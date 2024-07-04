@@ -53,7 +53,7 @@ The file [Zalewski_Xarxes_Model_and _Sensitivity.ipynb](Zalewski_Xarxes_Model_an
 
 ## Full Paper
 
-For a better understanding and explanation of the model, the full paper pdf is available [here](Zalewski_Xarxes_OptimizeAlpha.ipynb).
+For a better understanding and explanation of the model, the full paper pdf is available [here](Zalewski_Xarxes_Final.pdf).
 
 
 
